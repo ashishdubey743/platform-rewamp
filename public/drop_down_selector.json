@@ -1,0 +1,395 @@
+{
+    "vnumber":{
+        "vnumberType"   : {
+            "CB":"Sending Number",
+            "GA":"Central Number"
+        },
+        "activeStatus"  : {
+            "0":"False",
+            "1":"True"
+        },
+        "initialize"    : {
+            "0":"False",
+            "1":"True"
+        },
+        "blocked"       : {
+            "0":"False",
+            "1":"True"
+        }
+    },
+    "group":{
+        "sendRights"    : {
+            "0":"False",
+            "1":"True"
+        },
+        "adminRights"   : {
+            "0":"False",
+            "1":"True"
+        },
+        "active"        : {
+            "0":"False",
+            "1":"True"
+        },
+        "verify"        : {
+            "0":"False",
+            "1":"True"
+        },
+        "type"          : {
+            "Parents"   : "Parents",
+            "Moderators": "Moderators",
+            "Other": "Other"
+        },
+        "class"         : {
+            "P1"    :"Pre-nursery 1 (3-4 yrs)",
+            "P2"    :"Pre-nursery 2 (4-6 yrs)",
+            "G1"    :"1st Grade/Class",
+            "G2"    :"2nd Grade/Class",
+            "G3"    :"3rd Grade/Class",
+            "NULL"  :"Unclassified"
+        },
+        "onboarded"     : {
+            "0":"False",
+            "1":"True"
+        },
+        "TRStatus"      : {
+            "A1"    :"No sending number and no invite link. Manual TR after admin.",
+            "A2"    :"No sending number present but invite link there. Ready for TR.",
+            "B1"    :"Wrong sending number is present and auto correction cannot happen. Correct number must be added.",
+            "B2"    :"Wrong sending number is present from wrong organization. Correct number must be added.",
+            "C1"    :"Central and sending numbers are not present.",
+            "C2"    :"Central and sending numbers are not present but invite link is saved.",
+            "E1"    :"Error in data reach out to IT/Tech team for resolution.",
+            "TR"    :"Can receive content and is ready.",
+            "TRNC"  :"Can receive content but central number has been kicked out."
+        }
+    },
+    "organization":{
+        "institution_type"  :{
+            "ECE":"Early Childhood Education",
+            "FLN":"Foundational Literacy & Numeracy"
+        },
+        "moderator_type"    : {
+            "AW":"Aanganwadi/Healthcare Workers",
+            "TC":"Pre-School Teachers"
+        },
+        "active"            : {
+            "0":"False",
+            "1":"True"
+        },
+        "organization_type" : {
+            "PG":"Parent Product",
+            "TP":"Teacher Product",
+            "NP":"Nutrition Product"
+        },
+        "organization_urbanization" : {
+            "1":"1",
+            "2":"2",
+            "3":"3",
+            "4":"4",
+            "5":"5"
+        },
+        "group_name_prefix" : {
+            "आंगनवाड़ी होमवर्क ग्रुप":"आंगनवाड़ी होमवर्क ग्रुप (Anganwadi homework group)",
+            "स्कूल होमवर्क ग्रुप":"स्कूल होमवर्क ग्रुप (School homework group)",
+            "स्कूल व्हाट्सएप ग्रुप":"स्कूल व्हाट्सएप ग्रुप (School whatsapp group)",
+            "ਸਕੂਲ ਹੋਮਵਰਕ ਸਮੂਹ":"ਸਕੂਲ ਹੋਮਵਰਕ ਸਮੂਹ (School Homework Group)"
+        }
+    },
+    "school" :{
+        "active"        : {
+            "0":"False",
+            "1":"True"
+        },
+        "type"    : {
+            "Parents"   : "Parents",
+            "Moderators": "Moderator",
+            "Other": "Other"
+        }
+    },
+    "activity"  :{
+        "activityDomain" : {
+            "HLA" : "Home Learning Activity",
+            "ICA" : "In Classroom Activity",
+            "CFC" : "Child-Facing Content",
+            "TPD" : "Teacher Professional Development",
+            "PBC" : "Parent Behaviour Change"
+        },
+        "institutionType" : {
+            "ECE" : "Early Childhood Education",
+            "FLN" :"Foundational Literacy & Numeracy"
+        },
+        "difficultyLevel" : {
+            "Easy"  : "Easy",
+            "Medium": "Medium",
+            "Hard"  : "Hard"
+        },
+        "learningAge" : {
+            "3-4 Intro" : "3-4 Intro",
+            "3-4 Mastery / 4-6 Intro" : "3-4 Mastery / 4-6 Intro",
+            "4-6 Mastery / 6-7 Intro" : "4-6 Mastery / 6-7 Intro",
+            "6-7 Mastery / 7-8 Intro" : "6-7 Mastery / 7-8 Intro",
+            "7-8 Mastery / 8-9 Intro" : "7-8 Mastery / 8-9 Intro",
+            "8-9 Mastery" : "8-9 Mastery"
+        },
+        "audioType" : {
+            "Dubbed" : "Dubbed",
+            "Original" : "Original",
+            "NA" : "NA"
+        },
+        "activityFormat" : {
+            "Image" : "Image",
+            "Video" : "Video",
+            "Audio" : "Audio",
+            "Link" : "Link"
+        },
+        "callToAction" : {
+            "Respond with text": "Respond with text",
+            "Send photo/video" : "Send photo/video",
+            "React with emoji to multimedia" : "React with emoji to multimedia",
+            "Respond with voice note" : "Respond with voice note",
+            "Other" : "Other"
+        },
+        "timePerActivity" : {
+            "Short activity - under 7 mins" : "Short activity - under 7 mins",
+            "Long activity - 7 or more mins" : "Long activity - 7 or more mins",
+            "Short activity - under 10 mins" : "Short activity - under 10 mins",
+            "Long activity - 10 or more mins" : "Long activity - 10 or more mins"
+        },
+        "materialRequired" : {
+            "No material required" : "No material required",
+            "Mostly available at home/centre" : "Mostly available at home/centre",
+            "Requires preparation at home/centre" : "Requires preparation at home/centre",
+            "To be procured from outside" : "To be procured from outside"
+        },
+        "gender" : {
+            "Male" : "Male",
+            "Female" : "Female",
+            "Non-binary" : "Non-binary"
+        },
+        "religion" : {
+            "Hindu" : "Hindu",
+            "Muslim" : "Muslim",
+            "Christian" : "Christian",
+            "Sikh" : "Sikh",
+            "Jain" : "Jain",
+            "Buddhist" : "Buddhist"
+        },
+        "playType" : {
+            "Socio dramatic play" : "Socio dramatic play",
+            "Rhymes/Songs" : "Rhymes/Songs",
+            "Story-telling/Creating" : "Story-telling/Creating",
+            "Constructive play" : "Constructive play",
+            "Sensory play" : "Sensory play",
+            "Video viewing" : "Video viewing",
+            "Physical play" : "Physical play",
+            "Functional" : "Functional",
+            "Creative play" :  "Creative play",
+            "Free conversation" : "Free conversation",
+            "Creative/Aesthetic play" : "Creative/Aesthetic play",
+            "Other" : "Other"
+        },
+        "thematicAlignment" : {
+            "Seasons" : "Seasons",
+            "Fruits and vegetables" : "Fruits and vegetables",
+            "Birds and animals" : "Birds and animals",
+            "Festivals" : "Festivals",
+            "Plants and trees" : "Plants and trees",
+            "My school" : "My school",
+            "My community" : "My community",
+            "Water" : "Water",
+            "Transport" : "Transport",
+            "Food" : "Food",
+            "Clothing" : "Clothing",
+            "Occupations" : "Occupations",
+            "Safety and health" : "Safety and health",
+            "Air" : "Air",
+            "Communication and equipments" : "Communication and equipments",
+            "Family" : "Family",
+            "Me" : "Me",
+            "Other" : "Other"
+        },
+        "class" : {
+            "Pre-Primary I (3-4 years)"                                 : "Pre-Primary I (3-4 years)",
+            "Pre-Primary II (5-6 years)"                                : "Pre-Primary II (5-6 years)",
+            "Pre-Primary I (3-4 years) and Pre-Primary II (5-6 years))" : "Pre-Primary I (3-4 years) and Pre-Primary II (5-6 years))",
+            "Primary I (6-7 years)"                                     : "Primary I (6-7 years)",
+            "Primary II (7-8 years)"                                    : "Primary II (7-8 years)",
+            "Both(Primary I (6-7 years) and Primary II (7-8 years))"    : "Both(Primary I (6-7 years) and Primary II (7-8 years))"
+        }
+    },
+    "poll" : {
+        "orgTypes" : [ "PP","TP" ],
+        "numberOfOptions" : [ 2, 3, 4, 5, 6 ],
+        "tags": {
+            "PP" : ["Content-PP","Media-PP","Ops-PP","Product-PP"],
+            "TP" : ["Content-TP","Media-TP","Ops-TP","Product-TP"]
+        }
+    },
+    "customCertificate": {
+        "status" : {
+            "1" : "Request Sent",
+            "2" : "Completed",
+            "3" : "In Progress"
+        },
+        "sent" : {
+            "0" : "Not Sent",
+            "1" : "Intervention Sent"
+        },
+        "connectlyTemplate" : {
+            "number" : {
+                "+919319739480" : "+919319739480",
+                "+919319739481" : "+919319739481",
+                "+919319739482" : "+919319739482",
+                "+919319739434" : "+919319739434"
+            },
+            "numberApiKeyLink" : {
+                "+919319739480" : "CONNECTLY_API_KEY_919319739480",
+                "+919319739481" : "CONNECTLY_API_KEY_919319739481",
+                "+919319739482" : "CONNECTLY_API_KEY_919319739482",
+                "+919319739434" : "CONNECTLY_API_KEY_919319739434"
+            },
+            "numberBusinessIdLink" : {
+                "+919319739480" : "CONNECTLY_BUSINESS_ID_919319739480",
+                "+919319739481" : "CONNECTLY_BUSINESS_ID_919319739481",
+                "+919319739482" : "CONNECTLY_BUSINESS_ID_919319739482",
+                "+919319739434" : "CONNECTLY_BUSINESS_ID_919319739434"
+            }
+        }
+    },
+    "contentPacket":{
+        "contentTypes": {
+            "activity": "Activities",
+            "worksheet": "Worksheets"
+        },
+        "contentPacketTypes": {
+            "ECE": "PP",
+            "FLN": "PP",
+            "ICA": "TP",
+            "TPD": "TP",
+            "PBC": "PP"
+        }
+    },
+    "maintenance":{
+        "future_set_time": "FST",
+        "future_set_time_start": "FSTS",
+        "future_set_time_end": "FSTE",
+        "immediate_start": "IS",
+        "immediate_end": "IE",
+        "reminder": "reminder"
+    },
+    "weekdays": {
+        "all": "All",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday"
+    },
+    "timePeriod": {
+        "oneWeek":          "Last 1 Week",
+        "twoWeeks":         "Last 2 Weeks",
+        "fourWeeks":        "Last 4 Weeks",
+        "oneMonth":         "Last Month",
+        "sixWeeks":         "Last 6 Weeks",
+        "twoMonths":        "Last 2 Months",
+        "threeMonths":      "Last 3 Months",
+        "sixMonths":        "Last 6 Months",
+        "oneYear":          "Last 1 Year",
+        "eighteenMonths":   "Last 18 Months",
+        "twoYears":         "Last 2 Years"
+    },
+    "difficulty_level" : {
+        "easy"  : "Easy",
+        "medium": "Medium",
+        "hard"  : "Hard"
+    },
+    "training_status" : {
+        "0" : "Training Not Started",
+        "1" : "Training In Progress",
+        "2" : "Training Completed"
+    },
+    "labelling_status" : {
+        "0" : "Not labelled",
+        "1" : "In progress",
+        "2" : "Labelled"
+    },
+    "phoneStatus": [
+        "qr-screen",
+        "active",
+        "loading",
+        "idle"
+    ],
+    "instanceStatus": [
+        "isQr",
+        "loggedIn",
+        "loading",
+        "connRetry"
+    ],
+    "intervention": {
+        "interventionTypes" : {
+            "DA" : "Daily Activity",
+            "NR" : "Nudge/Reminder",
+            "FM" : "Feedback/Motivation",
+            "TT" : "TimeTable",
+            "Other" : "Other"
+        }
+    },
+    "kidsClassGroupClassMapping": {
+        "c1": "g1",
+        "c2": "g2",
+        "c3": "g3",
+        "p1": "p1",
+        "p2": "p2"
+    },
+    "enquiryResponseTypes": {
+        "text": "Text",
+        "number": "Number",
+        "email": "Email",
+        "phone": "Phone Number",
+        "date": "Date",
+        "single_choice": "Multiple Choice (Single Answer)",
+        "multiple_choice": "Multiple Choice (Multiple Answer)",
+        "single_select": "Single Select (Dropdown)",
+        "multiple_select": "Multiple Select (Dropdown)"
+    },
+    "wa_jobs_status_functions":{
+        "NewGroupDetect": "NewGroupDetect",
+        "AutoReadyGroups": "AutoReadyGroups",
+        "AutoTRGroups": "AutoTRGroups",
+        "ParticipantsWeeklySync": "ParticipantsWeeklySync"
+    },
+    "experiments":{
+        "test_levels":{
+            "Group" : "Group",
+            "Parent" : "Parent",
+            "Moderator" : "Moderator",
+            "TP" : "TP"
+        },
+        "impact_types":{
+            "Coverage" : "Coverage",
+            "Activation" : "Activation",
+            "Engagement" : "Engagement",
+            "Retention" : "Retention"
+        },
+        "randomization":{
+            "Groups":"Groups",
+            "Guardians":"Guardians",
+            "Moderators":"Moderators"
+        },
+        "product_types":{
+            "TP":"TP",
+            "PP":"PP"
+        },
+        "institution_types":{
+            "All":"All",
+            "ECE":"ECE",
+            "FLN":"FLN"
+        },
+        "user_types":{
+            "Moderators":"Moderators",
+            "Parents":"Parents",
+            "Supervisors":"Supervisors"
+        }
+    }
+}
